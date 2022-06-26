@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
+
   import Card from '../common/Card.svelte';
 
   export let item;
   const handleDelete = (itemId: number) => {
-    console.log(itemId);
+    dispatch('delete-feedback', itemId);
   };
 </script>
 
