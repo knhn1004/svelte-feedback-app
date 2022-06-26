@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import FeedbackItem from './FeedbackItem.svelte';
 
   export let feedbacks = [];

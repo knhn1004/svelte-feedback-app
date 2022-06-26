@@ -11,6 +11,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  background-color: rgb(48, 48, 126);
 }
 
 /* Sections
@@ -346,4 +347,10 @@ template {
 
 [hidden] {
   display: none;
+}
+
+.container {
+  max-width: 768px;
+  margin: 100px auto;
+  padding: 0 20px;
 }
